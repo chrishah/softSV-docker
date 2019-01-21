@@ -13,6 +13,7 @@ Get the image:
 docker pull chrishah/softsv:1.4.2
 ```
 
+Use the container:
 ```bash
 docker run --rm -v $(pwd):/in/ -w /in/ chrishah/softsv:1.4.2 SoftSV -h
 ```
